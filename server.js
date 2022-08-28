@@ -42,11 +42,11 @@ app.get("/", function (req, res) {
     req.session.numeroDoPedidoCliente = 1;
   }
 
-  //res.render("index.html", {
-  //  numeroDoPedidoCliente: "1",
-  //});
+  res.render("index.html", {
+    numeroDoPedidoCliente: "1",
+  });
 
-  res.render("fechado.html");
+  //res.render("fechado.html");
 
   //res.render("aviso.html");
 });
